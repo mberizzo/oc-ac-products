@@ -1,0 +1,27 @@
+columns:
+    tipoarti:
+        label: 'mberizzo.products::lang.import_columns.tipoarti'
+    descrip:
+        label: 'mberizzo.products::lang.import_columns.descrip'
+    cod_produa:
+        label: 'mberizzo.products::lang.import_columns.cod_produa'
+    valor_nomi:
+        label: 'mberizzo.products::lang.import_columns.valor_nomi'
+    cod_art:
+        label: 'mberizzo.products::lang.import_columns.cod_art'
+    cuota:
+        label: 'mberizzo.products::lang.import_columns.cuota'
+    tipo_vehi:
+        label: 'mberizzo.products::lang.import_columns.tipo_vehi'
+    marca:
+        label: 'mberizzo.products::lang.import_columns.marca'
+    moneda:
+        label: 'mberizzo.products::lang.import_columns.moneda'
+    metros_cua:
+        label: 'mberizzo.products::lang.import_columns.metros_cua'
+    habitacion:
+        label: 'mberizzo.products::lang.import_columns.habitacion'
+    tipo_plan:
+        label: 'mberizzo.products::lang.import_columns.tipo_plan'
+    cant_cuotas:
+        label: 'mberizzo.products::lang.import_columns.cant_cuotas'

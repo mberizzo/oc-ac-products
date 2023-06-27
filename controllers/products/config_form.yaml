@@ -1,0 +1,10 @@
+name: Products
+form: $/mberizzo/products/models/product/fields.yaml
+modelClass: Mberizzo\Products\Models\Product
+defaultRedirect: mberizzo/products/products
+create:
+    redirect: 'mberizzo/products/products/update/:id'
+    redirectClose: mberizzo/products/products
+update:
+    redirect: mberizzo/products/products
+    redirectClose: mberizzo/products/products

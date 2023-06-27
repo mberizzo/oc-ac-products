@@ -1,0 +1,16 @@
+import:
+    title: Import
+    modelClass: Mberizzo\Products\Models\ProductImport
+    list: $/mberizzo/products/models/product/columns_import.yaml
+
+defaultFormatOptions:
+    delimiter: ','
+    enclosure: '"'
+    escape: '\'
+    encoding: 'US-ASCII'
+
+# defaultFormatOptions:
+#     delimiter: ';'
+#     enclosure: '"'
+#     escape: '\'
+#     encoding: 'ISO-8859-9'

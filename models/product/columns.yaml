@@ -1,0 +1,32 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    tipoarti:
+        label: 'mberizzo.products::lang.fields.tipoarti'
+        type: text
+        searchable: true
+    descrip:
+        label: 'mberizzo.products::lang.fields.descrip'
+        type: text
+        searchable: true
+    cod_produa:
+        label: 'mberizzo.products::lang.fields.cod_produa'
+        type: text
+        searchable: true
+    valor_nomi:
+        label: 'mberizzo.products::lang.fields.valor_nomi'
+        type: text
+        searchable: false
+        sortable: true
+    cod_art:
+        label: 'mberizzo.products::lang.fields.cod_art'
+        type: text
+        searchable: false
+        sortable: true
+    cuota:
+        label: 'mberizzo.products::lang.fields.cuota'
+        type: text
+        searchable: false
+        sortable: true

@@ -1,0 +1,8 @@
+<h2>{{ product.tipoarti }}</h2>
+<h3>{{ product.descrip }}</h3>
+
+<div>
+    {{ product.descrip_larga|raw }}
+</div>
+
+<p><img src="{{ product.image.path }}" alt="{{ product.image.title }}"></p>

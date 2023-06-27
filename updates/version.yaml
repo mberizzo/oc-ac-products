@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table mberizzo_products_list'
+    - builder_table_create_mberizzo_products_list.php

@@ -1,0 +1,9 @@
+<h1>Productos</h1>
+
+{% for product in products %}
+    <p>
+        <a href="{{ 'articulo'|page({id: product.id}) }}">
+            #{{ product.id }} / {{ product.tipoarti }} / {{ product.descrip }}
+        </a>
+    </p>
+{% endfor %}

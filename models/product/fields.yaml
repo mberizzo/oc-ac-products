@@ -1,0 +1,34 @@
+fields:
+    tipoarti:
+        label: 'mberizzo.products::lang.fields.tipoarti'
+        span: left
+        required: 1
+        type: text
+    descrip:
+        label: 'mberizzo.products::lang.fields.descrip'
+        span: right
+        required: 1
+        type: text
+    cod_produa:
+        label: 'mberizzo.products::lang.fields.cod_produa'
+        span: left
+        required: 1
+        type: text
+    valor_nomi:
+        label: 'mberizzo.products::lang.fields.valor_nomi'
+        span: right
+        required: 1
+        type: text
+    descrip_larga:
+        label: 'mberizzo.products::lang.fields.descrip_larga'
+        size: large
+        span: full
+        type: richeditor
+        toolbarButtons: bold|italic|formatOL|formatUL|insertLink|undo|redo|html|fullscreen
+
+    # https://docs.octobercms.com/1.x/backend/forms.html#file-upload
+    image:
+        label: 'mberizzo.products::lang.fields.image'
+        type: fileupload
+        mode: image
+        span: left
