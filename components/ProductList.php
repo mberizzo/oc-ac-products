@@ -25,7 +25,7 @@ class ProductList extends ComponentBase
     {
         return [
             'tipoarti' => [
-            'title' => 'mberizzo.products::lang.fields.tipoarti',
+                'title' => 'mberizzo.products::lang.fields.tipoarti',
                 'type' => 'dropdown',
                 'options' => self::PROD_TYPES,
                 'default' => 0,
