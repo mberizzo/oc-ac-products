@@ -9,6 +9,7 @@ class Plugin extends PluginBase
         return [
             'Mberizzo\Products\Components\ProductList' => 'productList',
             'Mberizzo\Products\Components\ProductDetail' => 'productDetail',
+            'Mberizzo\Products\Components\BrandList' => 'brandList',
         ];
     }
 

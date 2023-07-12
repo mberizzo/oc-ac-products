@@ -3,21 +3,19 @@
 use Cms\Classes\ComponentBase;
 use Mberizzo\Products\Models\Product;
 
-class ProductList extends ComponentBase
+class BrandList extends ComponentBase
 {
 
     const PROD_TYPES = [
         '0KM',
         'Moto 0KM',
-        'Kit Vivienda',
-        'Valor Nominal',
     ];
 
     public function componentDetails()
     {
         return [
-            'name'        => 'ProductList Component',
-            'description' => 'Listado de productos'
+            'name'        => 'BrandList Component',
+            'description' => 'Listado de marcas'
         ];
     }
 
@@ -37,11 +35,13 @@ class ProductList extends ComponentBase
     {
         $tipoarti = $this->properties['tipoarti'];
 
-        $this->page['products'] = Product::query()
+        $brands = Product::query()
             ->where('tipoarti', self::PROD_TYPES[$tipoarti])
-            ->when($brand = input('marca'), function ($query) use ($brand) {
-                $query->where('marca', $brand);
-            })
-            ->get();
+            ->pluck('marca')
+            ->unique()
+            ->sort()
+            ->values();
+
+        $this->page['brands'] = $brands;
     }
 }
