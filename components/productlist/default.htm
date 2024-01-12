@@ -2,7 +2,7 @@
 
 {% for product in products %}
     <p>
-        <a href="{{ 'articulo'|page({id: product.id}) }}">
+        <a href="{{ 'articulo'|page({slug: product.descrip_slug}) }}">
             #{{ product.id }} / {{ product.tipoarti }} / {{ product.descrip }}
         </a>
     </p>

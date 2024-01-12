@@ -34,8 +34,7 @@ class ProductImport extends \Backend\Models\ImportModel
                 ]);
 
                 $this->logCreated();
-            }
-            catch (\Exception $ex) {
+            } catch (\Exception $ex) {
                 logger($ex);
                 $this->logError($row, $ex->getMessage());
             }

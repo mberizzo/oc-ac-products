@@ -16,8 +16,8 @@ class ProductDetail extends ComponentBase
 
     public function onRun()
     {
-        $id = $this->param('id');
-
-        $this->page['product'] = Product::find($id);
+        $this->page['product'] = Product::query()
+            ->where('descrip_slug', $this->param('slug'))
+            ->first();
     }
 }

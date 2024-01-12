@@ -13,6 +13,7 @@ class BuilderTableCreateMberizzoProductsList extends Migration
             $table->increments('id')->unsigned();
             $table->string('tipoarti');
             $table->string('descrip');
+            $table->string('descrip_slug');
             $table->text('descrip_larga')->nullable();
             $table->string('cod_produa');
             $table->string('valor_nomi');
