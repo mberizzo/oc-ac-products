@@ -11,6 +11,7 @@ class ProductList extends ComponentBase
         'Moto 0KM',
         'Kit Vivienda',
         'Valor Nominal',
+        'Artículo del Hogar',
     ];
 
     public function componentDetails()
