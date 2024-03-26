@@ -43,6 +43,7 @@ class ProductList extends ComponentBase
             ->when($brand = input('marca'), function ($query) use ($brand) {
                 $query->where('marca', $brand);
             })
+            ->orderBy('valor_nomi', 'asc')
             ->get();
     }
 }
